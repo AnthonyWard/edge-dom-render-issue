@@ -12,3 +12,16 @@ Then select 2 which represents object `{ id: 2, name: "This doesn't have an opti
 > In EDGE you will notice that the Optinal field remains, but in Chrome it does not (which I would expect is the desired behaviour)
 
 For other tests go back to 1, and then select 2, 3, or 4 etc.
+
+```
+this.things = [
+    { id: 1, name: 'This has an optional property', optional: "Hi, I'm optional"  },
+    { id: 2, name: "This doesn't have an optional property" },
+    { id: 3, name: 'This has a null optional property', optional: null  },
+    { id: 4, name: 'This has an undefined optional property', optional: undefined  },
+    { id: 5, name: 'This has an empty string optional property', optional: ""  },
+    { id: 6, name: 'This has a whitespace string optional property', optional: " "  }
+];
+```
+
+They all exhibit the same behaviour.
