@@ -9,7 +9,7 @@ Select 1, which represents object `{ id: 1, name: 'This has an optional property
 
 Then select 2 which represents object `{ id: 2, name: "This doesn't have an optional property",  }`
 
-### In EDGE you will notice that the Optinal field remains, but in Chrome it does not (which I would expect is the desired behaviour). If you resize the EDGE window the optional property dissappears and the result becomes the same an Chrome. Microsoft Edge 38.14393.0.0. Microsoft EdgeHTML 14.14393.
+**In EDGE you will notice that the optional field remains, but in Chrome it does not (the desired behaviour). If you resize the EDGE window the optional property dissappears and the result becomes the same as in Chrome. Microsoft Edge 38.14393.0.0. Microsoft EdgeHTML 14.14393.**
 
 For other tests go back to 1, and then select 2, 3, or 4 etc.
 
